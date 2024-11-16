@@ -1,0 +1,53 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#header {
+  background-color: #ffda44;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#tickets {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+}
+
+.ticket {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 50px;
+  margin: 30px;
+  transition: transform .2s;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.ticket:hover {
+  transform: scale(1.05);
+}
+
+.ticket img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.ticket .card-body {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.ticket button {
+  margin-top: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.ba5a5711.css.map */
